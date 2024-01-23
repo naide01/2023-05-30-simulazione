@@ -10,23 +10,23 @@ import it.polito.tdp.gosales.model.Retailers;
 public class testDAO {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		GOsalesDAO dao = new GOsalesDAO();
-		List<Retailers> listR = new ArrayList<>();
-		List<Products> listP = new ArrayList<>();
-		List<DailySale> listS = new ArrayList<>();
-		
-		
-		listR = dao.getAllRetailers();
-		System.out.println(listR.size());
-		
-		listP = dao.getAllProducts();
-		System.out.println(listP.size());
-		
-		listS = dao.getAllSales();
-		System.out.println(listS.size());
-		
-		
+//		// TODO Auto-generated method stub
+//		GOsalesDAO dao = new GOsalesDAO();
+//		List<Retailers> listR = new ArrayList<>();
+//		List<Products> listP = new ArrayList<>();
+//		List<DailySale> listS = new ArrayList<>();
+//		
+//		
+//		listR = dao.getAllRetailers();
+//		System.out.println(listR.size());
+//		
+//		listP = dao.getAllProducts();
+//		System.out.println(listP.size());
+//		
+//		listS = dao.getAllSales();
+//		System.out.println(listS.size());
+//		
+//		
 		
 	}
 
